@@ -66,7 +66,7 @@ public class HistoricoRedeService {
 
     public Date dataAnterior(){
         Calendar cal = Calendar.getInstance();
-        cal.add(Calendar.MINUTE , -240);
+        cal.add(Calendar.MINUTE , -15);
         return cal.getTime();
     }
 
